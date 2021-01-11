@@ -1,0 +1,25 @@
+{
+    "store.custom#landing": {
+        "blocks":["image#landingbanner", "search-result-layout.customQuery"]
+    },
+    "image#landingbanner": {
+        "props": {
+            "src": "https://images.unsplash.com/photo-1595246007497-15e0ed4b8d96?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=2100&q=80",
+            "blockClass": "cover",
+            "width": "100%",
+            "height": 300
+        }
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Camara",
+                "mapField": "ft"
+            }
+        },
+        "blocks": ["search-result-layout.desktop"]
+    }
+}
