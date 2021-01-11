@@ -1,6 +1,6 @@
 {
-  "vendor": "vtex",
-  "name": "minimumtheme",
+  "vendor": "elektraqa",
+  "name": "trainingweek--mystoretest",
   "version": "0.1.0",
   "builders": {
     "styles": "2.x",
